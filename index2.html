@@ -81,37 +81,19 @@
                 </div>
               </div> 
         </form>
-        <table class="table table-hover table-bordered">
-            <tread>
-                <tr>
-                    <th>Nome</th>
-                    <th>Idade</th>
-                    <th>Endereço</th>
-                    <th>Telefone</th>
-                    <th>Peso</th>
-                    <th>Altura</th>
-                    <th>Problemas de saúde</th>
-                    <th>Descrição</th>
-                </tr>
-            </tread>
-            <tbody>
-                <tr>
-                    <td>Margo Elizabeth</td>
-                    <td>18</td>
-                    <td>Rua do Bobo, nº 0</td>
-                    <td>(27)99811-4562</td>
-                    <td>54</td>
-                    <td>1,57</td>
-                    <td>Não</td>
-                    <td></td>
-                </tr>
-            </tbody>
-            <tfoot>
-
-            </tfoot>
-        </table>
     </div>
     </div>
 </div>
+    <script src="js/model/paciente.js"></script>
+    <script src="js/model/ListaDePacientes.js"></script>
+    <script src="js/views/View.js"></script>
+    <script src="js/views/PacienteView.js"></script>
+    <script src="js/controller/PacienteController.js"></script>
+    <script src="js/model/Mensagem.js"></script>
+    <script src="js/views/MensagemView.js"></script>
+    <script>
+        const pacienteController = new PacienteController();
+    </script>
+
 </body>
 </html>
