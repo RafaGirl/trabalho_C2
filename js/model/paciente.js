@@ -1,6 +1,6 @@
 class Paciente{
     constructor(nome, endereco, telefone, idade, peso, altura, problemas){
-        if(nome && endereco && telefone && peso && altura && problemas){
+        if(nome && endereco && telefone && idade && peso && altura && problemas){
             this.nome = nome
             this.endereco = endereco
             this.telefone = telefone
@@ -16,25 +16,25 @@ class Paciente{
             this.altura = 0.0
             this.problemas = null
         }
-        Object.freeze(this);
+        Object.freeze(this)
     }
     get nome(){
-        return this._nome;
+        return this._nome
     }
     get endereco(){
-        return this.endereco;
+        return this.endereco
     }
     get telefone (){
-        return this.telefone;
+        return this.telefone
     }
     get peso(){
-        return this.peso;
+        return this.peso
     }
     get altura(){
-        return this.altura;
+        return this.altura
     }
     get problemas(){
-        return this.problemas;
+        return this.problemas
     }
 
 }
